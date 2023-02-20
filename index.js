@@ -1,5 +1,9 @@
 const Calculate = {
+	factorial(inputNum)
+	{
+		
+	}
 
 }
 
-module.exports(Calculate);
+module.exports = Calculate;
