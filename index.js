@@ -2,6 +2,11 @@ const Calculate = {
 	//the factorial method returns the result of n!.  For example, 5! should be the result of 5 x 4 x 3 x 2 x 1, or 120.
 	factorial(inputNum)
 	{
+		if(inputNum === 0)
+		{
+			return 1;
+		}
+
 		let factorialArray = [];
 		//push each number in the factorial calculation to an array, in descending order.
 		for(inputNum; inputNum > 0; inputNum--)

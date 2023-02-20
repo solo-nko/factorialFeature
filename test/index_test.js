@@ -18,12 +18,24 @@ describe('Calculate', () => {
 		//setup
 		const expectedResult = 6;
 
-		//verify
+		//exercise
 		const actualResult = Calculate.factorial(3);
 
 		//verify
 		assert.strictEqual(expectedResult,actualResult);
 		});
+
+		it('returns 1 if 0 is inputed', () =>
+		{
+			//setup
+			const expectedResult = 1;
+
+			//exercise
+			const actualResult = Calculate.factorial(0);
+
+			//verify
+			assert.strictEqual(expectedResult,actualResult);
+		})
  
 	});
 });
