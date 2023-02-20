@@ -36,6 +36,18 @@ describe('Calculate', () => {
 			//verify
 			assert.strictEqual(expectedResult,actualResult);
 		})
+
+		it('throws an error if input type is not a number', () =>
+		{
+			//setup
+			const testInput = "hello"
+
+			//exercise & verify
+			assert.throws(() => {
+				Calculate.factorial(testInput), TypeError
+			});
+
+		})
  
 	});
 });
