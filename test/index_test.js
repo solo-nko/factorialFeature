@@ -13,6 +13,17 @@ describe('Calculate', () => {
 			//verify
 			assert.strictEqual(expectedResult, actualResult);
 		})
+
+		it('tests if the output of 3! is 6', () => {
+		//setup
+		const expectedResult = 6;
+
+		//verify
+		const actualResult = Calculate.factorial(3);
+
+		//verify
+		assert.strictEqual(expectedResult,actualResult);
+		});
  
 	});
 });
