@@ -3,7 +3,7 @@ const Calculate = require('../index');
 
 describe('Calculate', () => {
 	describe('.factorial', () => {
-		it('tets if the output of 5! is 120', () => {
+		it('tests if the output of 5! is 120', () => {
 			//setup
 			const expectedResult = 120;
 

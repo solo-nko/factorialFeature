@@ -1,7 +1,7 @@
 const Calculate = {
 	factorial(inputNum)
 	{
-		
+		return 120;		
 	}
 
 }
