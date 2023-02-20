@@ -1,3 +1,5 @@
+//an exercise in Test-Driven Development using Javascript's Mocha unit testing framework.
+
 const assert = require("assert");
 const Calculate = require('../index');
 
